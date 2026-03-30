@@ -1,0 +1,4 @@
+1. got to icons8.com
+2. look for line based icons https://icons8.com/icons/authors/xqjb2iRLnf6e/edt-graphics/external-edtim-outline-edtim
+3. set iconstroke to 6 and color to white (255,255,255)
+

@@ -1,0 +1,22 @@
+-- Save/Load GUI reference - converted from Roblox GUI converter
+-- GUI structure:
+--   Main (ScreenGui)
+--     HotBar (Frame) - 10 slots with NumKey labels
+--     SideBar (Frame) - tool buttons (Glue, etc)
+--     GameState (Frame) - Save/Load buttons at top
+--       ButtonHolder - Save and Load TextButtons
+--       ToggleVisability - "Open" button to show SaveManager
+--     SaveManager (Frame) - main save panel
+--       NewSaveButton - creates new save slot
+--       Lister (ScrollingFrame) - list of save slots
+--         SaveLoadTemplet (Frame) - template for each slot
+--           SaveNameText - "Slot #1" label
+--           SaveLoad - container for Save/Load buttons
+--             SaveTextButtonHolder > SaveTextButton
+--             LoadButtonHolder > LoadButton
+--     SaveSlot (Frame) - popup for naming a save (initially hidden)
+--       SaveTextBoxHolder > SaveTextBox (editable name)
+--       SaveButtonHolder > Save button
+
+-- NOTE: This GUI is already created in Studio by the user
+-- We just need to hook up the button logic in our scripts

@@ -1,0 +1,28 @@
+-- Full GUI structure reference (converted from Studio, updated)
+-- This file is for reference only, NOT to be run
+--
+-- Structure:
+--   Main (ScreenGui)
+--     HotBar (Frame) - 10 slots with NumKey 1-0
+--     SideBar (Frame)
+--       ToolHolder (Frame) - sorted by LayoutOrder
+--         ActivateFrame (-999) > UIStroke, Activate (ImageButton)
+--         SelectAndMoveFrame (-998) > UIStroke, SelectAndMove (ImageButton)
+--         MoveFrame (-997) > UIStroke, Move (ImageButton)
+--         RescaleFrame (-996) > UIStroke, Rescale (ImageButton)
+--         RotateFrame (-995) > UIStroke, Rotate (ImageButton)
+--         GlueFrame (0) > UIStroke, Glue (ImageButton)
+--         SettingsFrame (999) > UIStroke, Settings (ImageButton) -- WIP, skip
+--       Tool2Holder
+--         UnAnchorButtonHolder > UnAnchorButton (TextButton, "Unanchor")
+--         Frame > TextButton (placeholder)
+--     GameState (Frame, Position 0.5,0,0,-5)
+--       ButtonHolder > SaveHolder > Save, LoadHolder > Load
+--       ToggleVisability > ToggleSaveLoad ("Open")
+--     SaveManager (Frame, Visible=false, Size 0.15,0,0.4,0, Position 0.467,0,0.1,0)
+--       NewSaveButton > TextButton ("New Save")
+--       LineSeparator
+--       Lister (ScrollingFrame) > SaveLoadTemplet (template, Visible=false)
+--     SaveSlot (Frame, Visible=false)
+--       SaveTextBoxHolder > SaveTextBox
+--       SaveButtonHolder > Save
